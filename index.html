@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/avatar-perfil.png" alt="avatar da Samilli" class="rounded-circle" width="170" height="170"
+            srcset="">
+        <p class="lead"><i class="bi bi-hearts"></i>Meu nome é Samilli</p>
+        <h1>Eu estudo Programação</h1>
+        <p> aluna do ultimo ano de ensino médio e estou aprendendo a programar pelo alura, onde a escola forneceu
+            esses conteúdos para desenvolver essas habilidades.</p>
+        <h1>Minhas Habilidades</h1>
+        <p> Estou aprendendo a usar e aprender o pensamento
+            computacional e a linguagem da programação como o HTML, CSS, JavaScript.
+            Umas das minhas habilidades é ter a resiliencia e conseguir trabalhar em equipe.</p>
+        <div>
+            <p class="badge bg-secondary">HTML</p>
+            <p class="badge bg-secondary">CSS</p>
+            <p class="badge bg-secondary">JavaScript</p>
+            <p class="badge bg-secondary">Scratch</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos<i class="bi bi-stars"></i></h2>
+        <div class="row">
+            <!--Projeto 1-->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/Projeto-1.png" class="card-img-top" alt="Imagem do projeto Corrida Espacial">
+                    <div class="card-body">
+                        <h5 class="card-title">Corrida Espacial</h5>
+                        <p class="card-text">Corrida Espacial é um mini-jogo interativo feito com JavaScript e p5.js,
+                            onde quatro personagens espaciais competem para chegar primeiro à linha de chegada. Cada
+                            jogador é controlado por uma tecla do teclado (a, s, d, f) e o primeiro a vencer ativa fogos
+                            de artifício comemorativos na tela.
+                            O jogo traz um visual animado com estrelas em movimento, controles simples e efeitos visuais
+                            coloridos, sendo ideal para demonstrar conhecimentos em lógica de jogos, animações e
+                            interações com teclado.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o
+                            projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!--Projeto 2-->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/Projeto-2.png" class="card-img-top" alt="Imagem do projeto Quente frio">
+                    <div class="card-body">
+                        <h5 class="card-title">Quente frio</h5>
+                        <p class="card-text">Quente Frio é um jogo simples feito com JavaScript e p5.js, onde o objetivo
+                            é encontrar um ponto secreto que se move levemente na tela. À medida que o jogador move o
+                            mouse, um círculo mostra o quão perto está do alvo — quanto menor o círculo, mais "quente"
+                            está. Quando o mouse chega muito próximo, a mensagem "Encontrei!" aparece, encerrando o
+                            jogo.
+                            Esse projeto demonstra conceitos como detecção de proximidade, movimento aleatório, e
+                            interatividade com o mouse de forma visual e intuitiva.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o
+                            projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!--Projeto 3-->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/Projeto-3.png" class="card-img-top" alt="Imagem do projeto Monalisa">
+                    <div class="card-body">
+                        <h5 class="card-title">Monalisa</h5>
+                        <p class="card-text">Monalisa é uma recriação interativa da famosa pintura de Leonardo Da Vinci,
+                            feita com JavaScript e p5.js. O projeto representa o rosto da Monalisa de maneira
+                            simplificada, utilizando formas geométricas para o rosto, olhos, nariz, boca e chapéu. A
+                            interatividade permite que os olhos da Monalisa sigam o movimento do mouse, criando uma
+                            sensação de "vida" na obra. Ao clicar, as coordenadas do mouse são registradas.
+                            Esse projeto é uma maneira divertida e criativa de misturar arte clássica com interatividade
+                            digital</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o
+                            projeto</button>
+                    </div>
+                </div>
+            </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Corrida Espacial</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h3> Bem-vindo à Corrida Espacial! 🚀</h3>
+                    <p>Prepare-se para uma disputa estelar entre naves e seres de outro mundo!</p>
+                    <h6>Como jogar:</h6>
+                    <p>Escolha sua nave ou personagem favorito (🛸, 👽, 🚀, 👩‍🚀).
+                        Cada jogador controla seu personagem usando uma tecla específica:
+                        "A" para 🛸
+                        "S" para 👽
+                        "D" para 🚀
+                        "F" para 👩‍🚀
+                        Pressione repetidamente a sua tecla para avançar em direção à linha de chegada.</p>
+                    <h6>Objetivo:</h6>
+                    <p>🚩 Seja o primeiro a alcançar a linha de chegada à direita da tela!
+                        ✨ Quando um jogador vence, fogos de artifício cósmicos celebram a vitória!
+                        Clique em Iniciar e que vença o mais rápido do espaço! 🌠</p>
+                    <img src="img/Projeto-1.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto Corrida Espacial">
+                </div>
+                <div class="modal-footer">
+                    <i class="bi bi-joystick"></i>
+                    <a href="https://editor.p5js.org/Sami_lli010/full/SW21fCJZN">Divirta-se aqui</a>
+                    <i class="bi bi-link"></i>
+                    <a href="https://editor.p5js.org/Sami_lli010/sketches/SW21fCJZN">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Quente frio</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h3>❄️🔥 Bem-vindo ao Quente Frio! 🔥❄️</h3>
+                    <p>Você está prestes a embarcar em um jogo de percepção e intuição!</p>
+                    <h6>Como funciona:</h6>
+                    <p>Um ponto secreto aparece em algum lugar da tela.</p>
+                    <p>Seu cursor é o "detector"!</p>
+                    <p>Conforme você move o mouse pela tela, o círculo rosa muda de tamanho:</p>
+                    <p>Maior = você está frio (longe do ponto).</p>
+                    <p>Menor = você está quente (mais perto do ponto).</p>
+                    <h6>Objetivo:</h6>
+                    <p>🎯 Encontre o ponto escondido! Quando chegar bem perto, aparecerá a mensagem "Encontrei!" e o
+                        jogo termina.</p>
+                    <h6>Dica:</h6>
+                    <p>confie na intuição e fique de olho no tamanho do círculo!</p>
+                    <p>Clique em Iniciar e boa sorte na caçada!</p>
+                    <img src="img/Projeto-2.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto Quente frio">
+                </div>
+                <div class="modal-footer">
+                    <i class="bi bi-joystick"></i>
+                    <a href="https://editor.p5js.org/Sami_lli010/full/R7qP-Maet">Divirta-se aqui</a>
+                    <i class="bi bi-link"></i>
+                    <a href="https://editor.p5js.org/Sami_lli010/sketches/R7qP-Maet">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 3-->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Monalisa</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h3>🎨Bem-vindo ao Monalisa</h3>
+                    <p> Neste jogo interativo, seu objetivo é acompanhar os movimentos do mouse com os olhos da
+                        Monalisa, como se ela estivesse te observando onde quer que vá!</p>
+                    <h6>👀 O que acontece no jogo:</h6>
+                    <p>A Monalisa aparece com um rosto engraçado e expressivo.
+                        Seus olhos se movem conforme você move o mouse pela tela!
+                        Isso cria uma ilusão divertida de que ela está sempre te observando.</p>
+                    <h6>🕹️ Como jogar:</h6>
+                    <p>Mova o mouse em qualquer direção sobre a tela.
+                        Observe como os olhos da Monalisa seguem o cursor.
+                        Experimente mover rápido, devagar, em círculos... Veja a mágica acontecer</p>
+                    <h6>🔍 Dica:</h6>
+                    <p>Se quiser ver os pontos exatos do seu cursor, clique com o mouse para exibir as coordenadas no
+                        console (caso esteja usando um ambiente de desenvolvimento como o p5.js Web Editor).
+                        Divirta-se com o olhar curioso da Monalisa!</p>
+                    <img src="img/Projeto-3.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto Monalisa">
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container py-5">
+        <h2><i class="bi bi-telephone"> </i>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/Samilli010">GitHub</a>
+        </div>
+        <p class="my-5">© Copyright 2025. Produzido por Samilli Rodrigues</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
